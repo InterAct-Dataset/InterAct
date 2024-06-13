@@ -1,0 +1,1 @@
+python train_diffusion_smpl.py --batch_size 256 --expr_name 1.0_512 --ff_size 512

@@ -1,0 +1,14 @@
+python trainer_marker_manip_diffusion.py \
+--window=120 \
+--batch_size=64 \
+--project="./omomo_runs" \
+--exp_name="all_layer6_kv256_dim512" \
+--wandb_pj_name="omomo" \
+--entity="your wandb account" \
+--data_root_folder="../data" \
+--use_object_split \
+--use_all_data \
+--n_dec_layers 6 \
+--d_k 256 \
+--d_v 256 \
+--d_model 512

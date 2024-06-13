@@ -1,0 +1,1 @@
+python eval_smpl_short.py --resume_checkpoint ./results/1.0_behave.ckpt

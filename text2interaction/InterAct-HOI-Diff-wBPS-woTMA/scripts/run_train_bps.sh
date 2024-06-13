@@ -1,0 +1,11 @@
+python -m train.hoi_diff \
+--save_dir ./save/interact \
+--dataset behave \
+--save_interval 10000 \
+--num_steps 300000 \
+--arch trans_enc \
+--batch_size 128 \
+--layers 8 \
+--multi_backbone_split 4 \
+--latent_dim 512 \
+--dataset interact

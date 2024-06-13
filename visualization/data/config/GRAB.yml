@@ -1,0 +1,3 @@
+MOTION_PATH: ../data/grab/sequences # path where motion sequences (30fps) are stored
+OBJECT_TEMPLATE: ../data/grab/objects # path where object templates are stored
+MODEL_PATH: ../data/models/ # path where smplh models are stored

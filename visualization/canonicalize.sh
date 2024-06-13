@@ -1,0 +1,3 @@
+python canonicalize_human.py
+python canonicalize_human_grab.py
+python motion_representation.py
